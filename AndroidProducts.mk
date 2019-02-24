@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_enchilada.mk
+    $(LOCAL_DIR)/rr_enchilada.mk
