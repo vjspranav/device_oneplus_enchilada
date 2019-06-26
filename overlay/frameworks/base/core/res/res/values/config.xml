@@ -398,4 +398,7 @@
     <!-- Doze: should the proximity sensor (handwave / pocket mode) be used as a pulse signal. -->
     <bool name="config_dozePulseProximity">true</bool>
 
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
+
 </resources>
