@@ -22,9 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/enchilada/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+$(call inherit-product, vendor/stag/main.mk)
 
-PRODUCT_NAME := aosip_enchilada
+PRODUCT_NAME := stag_enchilada
 PRODUCT_DEVICE := enchilada
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -33,7 +33,7 @@ PRODUCT_MODEL := ONEPLUS A6000
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=OnePlus6 \
+    TARGET_DEVICE=OnePlus6 \
     PRODUCT_NAME=OnePlus6 \
     PRIVATE_BUILD_DESC="OnePlus6-user 8.1.0 OPM1.171019.011 273 release-keys"
 
